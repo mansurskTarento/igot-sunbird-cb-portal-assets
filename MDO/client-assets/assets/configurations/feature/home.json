@@ -90,6 +90,23 @@
               ]
             },
             {
+              "name": "Work Allocation Tool",
+              "key": "work-allocation",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/work-allocation",
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
+            },
+            {
               "name": "Approval",
               "key": "approvals",
               "fragment": false,
